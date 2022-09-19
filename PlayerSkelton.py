@@ -12,6 +12,7 @@ from pygame import mixer
 class player:
     isloaded = True
     def __init__(self, window):
+        #initialzing main window
         self.window = window
         window.geometry('500x200'); window.title('Player')
         window.resizable(300,200)
